@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4C4747"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400px"
+        android:layout_centerHorizontal="true"
+        android:text="Incidentes AREA TI INACAP"
+        android:textSize="80px"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="650px"
+        android:backgroundTint="#FA0101"
+        android:textColor="@color/white"
+        android:text="Nuevo" />
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="800px"
+        android:textColor="@color/white"
+        android:backgroundTint="#FA0101"
+        android:text="Editar" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="950px"
+        android:textColor="@color/white"
+        android:backgroundTint="#FA0101"
+        android:text="Historial" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="450px"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="600px"
+        android:layout_height="200px"
+        app:srcCompat="@drawable/logo_inacap_3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150px"
+        />
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="1080px"
+        android:layout_height="450px"
+        android:layout_marginTop="1100px"
+        app:srcCompat="@drawable/banner_portal_1200x400" />
+
+
+
+
+    <ImageView
+        android:id="@+id/inicio"
+        android:layout_width="66dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="1640px"
+        android:layout_marginLeft="55px"
+        app:srcCompat="@drawable/logohome" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inicio"
+        android:textSize="40px"
+        android:layout_marginLeft="95px"
+        android:layout_marginTop="1800px"
+        android:textColor="@color/white"
+        />
+
+    <ImageView
+        android:id="@+id/perfil"
+        android:layout_width="66dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="320px"
+        android:layout_marginTop="1640px"
+        app:srcCompat="@drawable/logoperfil" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perfil"
+        android:textSize="40px"
+        android:layout_marginLeft="365px"
+        android:layout_marginTop="1800px"
+        android:textColor="@color/white"
+        />
+
+    <ImageView
+        android:id="@+id/ayuda"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="630px"
+        android:layout_marginTop="1640px"
+        app:srcCompat="@drawable/logoayuda" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ayuda"
+        android:textSize="40px"
+        android:layout_marginLeft="650px"
+        android:layout_marginTop="1800px"
+        android:textColor="@color/white"
+        />
+
+    <ImageView
+        android:id="@+id/cerrarsesion"
+        android:layout_width="59dp"
+        android:layout_height="57dp"
+        android:layout_marginLeft="870px"
+        android:layout_marginTop="1640px"
+        app:srcCompat="@drawable/logosalir" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salir"
+        android:textSize="40px"
+        android:layout_marginLeft="905px"
+        android:layout_marginTop="1800px"
+        android:textColor="@color/white"
+        />
+</RelativeLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4C4747"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Incidentes AREA TI INACAP"
+        android:textSize="50px"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="450px"
+        android:layout_centerHorizontal="true"/>
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="900px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125px"
+        android:layout_marginTop="500px"
+        android:textColor="@color/white"
+        android:backgroundTint="#FA0101"
+        android:entries="@array/lista1"
+        android:padding="20px"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120px"
+        android:layout_marginTop="700px"
+        android:text="Nombre: "
+        android:textSize="50px"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="350px"
+        android:layout_marginTop="660px"
+        android:backgroundTint="#FAFAFA"
+        android:ems="12"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="225px"
+        android:layout_marginTop="850px"
+        android:text="Rut: "
+        android:textSize="50px"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="700px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="350px"
+        android:layout_marginTop="810px"
+        android:backgroundTint="#FAFAFA"
+        android:ems="12"
+        android:inputType="phone"
+        android:textColor="@color/white"
+        android:textSize="50px" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380px"
+        android:text="Fecha: 22/09/2023 Hora: 19:15"
+        android:textSize="50px"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40px"
+        android:layout_marginTop="985px"
+        android:text="D. Incidente: "
+        android:textSize="50px"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="350px"
+        android:layout_marginTop="950px"
+        android:backgroundTint="#FAFAFA"
+        android:ems="12"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="600px"
+        android:layout_height="200px"
+        app:srcCompat="@drawable/logo_inacap_3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150px"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50px"
+        android:layout_marginTop="1600px"
+        android:backgroundTint="#FA0101"
+        android:text="Salir sin Grabar" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="600px"
+        android:layout_marginTop="1600px"
+        android:backgroundTint="#238807"
+        android:text="Grabar Incidente" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="1080px"
+        android:layout_height="450px"
+        android:layout_marginTop="1100px"
+        app:srcCompat="@drawable/banner_portal_1200x400" />
+
+
+</RelativeLayout>
